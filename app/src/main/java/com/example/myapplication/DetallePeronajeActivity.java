@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.squareup.picasso.Picasso;
 
-public class DetallePersonajeActivity extends AppCompatActivity {
+public class DetallePeronajeActivity extends AppCompatActivity {
     ImageView imgPerfil;
     TextView txtNombre, txtEspecie, txtEstado, txtGenero, txtLocal, txtPlaneta;
 
