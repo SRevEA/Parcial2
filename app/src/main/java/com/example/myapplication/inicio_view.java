@@ -59,7 +59,7 @@ public class inicio_view extends AppCompatActivity implements Adaptador.OnItemCl
 
     @Override
     public void onItemClick(Personajes personajes) {
-        Intent intent = new Intent(inicio_view.this, DetallePersonajeActivity.class);
+        Intent intent = new Intent(inicio_view.this, DetallePeronajeActivity.class);
         intent.putExtra("nombre", personajes.getNombre());
         intent.putExtra("especie", personajes.getEspecie());
         intent.putExtra("imagen", personajes.getImg());
